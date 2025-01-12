@@ -4,7 +4,7 @@ var express = require( 'express' ),
 
 app.use( express.Router() );
 
-//. LLM ブロックを有効にする
+//. LLM クローラーボットブロックを有効にする
 app.use( require( './block_llm_bots' ) );
 
 //. .env 内に記載された UserAgent からのリクエストだとこの処理は実行されない
